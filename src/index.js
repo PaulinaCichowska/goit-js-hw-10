@@ -1,6 +1,6 @@
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 import SlimSelect from 'slim-select';
-import '../../node_modules/slim-select/dist/slimselect.css';
+import '../node_modules/slim-select/dist/slimselect.css';
 import Notiflix from 'notiflix';
 
 const selectBtn = document.querySelector('.breed-select');
